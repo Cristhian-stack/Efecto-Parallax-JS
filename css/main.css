@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 100%;
+    width: 70%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgb(107, 85, 85);
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: rgb(31, 28, 28);
+    border-radius: 12px;
+}
+
+img.fonds {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+body {
+    overflow: hidden;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    height: 1100px;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+@media (max-width: 1150px) {
+    header {
+        height: 70vh;
+    }
+}
+
+@media (max-width: 850px) {
+    header {
+        height: 60vh;
+    }
+}
+
+@media (max-width: 750px) {
+    header {
+        height: 50vh;
+        top: 80px;
+    }
+}
+
+header img {
+    position: absolute;
+}
+
+header img.Assasin {
+    bottom: -40px;
+    left: 80px;
+}
+
+header img.suelo {
+    bottom: -70px;
+    width: 100%;
+    height: 80px;
+}
+
+@media (max-width: 850px) {
+    header img.suelo {
+        bottom: -50px;
+    }
+}
+
+div.caja {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 250px;
+    position: relative;
+    top: 50px;
+}
+
+@media (max-width: 1150px) {
+    img.fonds {
+        display: none;
+    }
+}
+
+
+/* SECCION */
+
+section {
+    position: relative;
+    background-color: black;
+    height: 1000px;
+    top: -160px;
+    text-align: center;
+}
+
+@media (max-width: 850px) {
+    section {
+        top: -100px;
+    }
+}
+
+h1 {
+    color: white;
+    margin: 0;
+}
+
+p {
+    margin-top: 80px;
+    color: white;
+}
+
+p.Desr {
+    color: white;
+    position: relative;
+    bottom: 0;
+}
